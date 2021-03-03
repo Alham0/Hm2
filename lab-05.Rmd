@@ -3,18 +3,11 @@ title: "Lab 05 - Nobel laureates"
 output: github_document
   
 ---
-Team Name:
+Team Name:Ds6
 
 Team Members - Name and Student ID
 
-1.
-
-2.
-
-3.
-
-4.
-
+Elham khatim -2201001444
 
 
 ```{r setup, include = FALSE}
@@ -41,6 +34,8 @@ nobel <- read_csv("data/nobel.csv")
 ## Get to know your data
 
 1.  How many observations and how many variables are in the dataset? Use inline code to answer this question. What does each row represent?
+Observation:953
+Variables:26
 
 
 ```{r}

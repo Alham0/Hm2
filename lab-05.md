@@ -1,14 +1,11 @@
 Lab 05 - Nobel laureates
 ================
 
-Team Name:
+Team Name:Ds6
 
 Team Members - Name and Student ID
 
-1.  
-2.  
-3.  
-4.  
+Elham khatim -2201001444
 
 ## Packages
 
@@ -17,6 +14,9 @@ Load tidyverse below
 ``` r
 library(tidyverse)
 ```
+
+    ## Warning in system("timedatectl", intern = TRUE): running command 'timedatectl'
+    ## had status 1
 
 ## Data
 
@@ -33,6 +33,7 @@ nobel <- read_csv("data/nobel.csv")
 
 1.  How many observations and how many variables are in the dataset? Use
     inline code to answer this question. What does each row represent?
+    Observation:953 Variables:26
 
 ``` r
 dim(nobel)
